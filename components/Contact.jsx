@@ -56,7 +56,7 @@ const Contact = () => {
               className={mensaje === "" ? `disabled:transition-shadow rounded-xl bg-background/40 w-[200px] shadow-xl mt-4 text-texto p-2  text-xl border cursor-`: `rounded-xl bg-naranja w-[200px] shadow-xl mt-4 text-texto p-2  text-xl border`}>Send</button>
         </form>
         <div className="hidden sm:block pr-6">
-            <Image src={ContactPic}/>
+            <Image src={ContactPic} alt={`yo`}/>
         </div>
         </div>
         

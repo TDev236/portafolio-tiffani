@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="">
       <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <span className="text-naranja-oscuro font-bold">Hi</span>
-        <h1 className="text-6xl md:text-6xl">i'am <span className='text-texto font-bold text-6xl sm:text-8xl'>Tiffani</span></h1>
+        <h1 className="text-6xl md:text-6xl">{`i'am `}<span className='text-texto font-bold text-6xl sm:text-8xl'>Tiffani</span></h1>
         <ReactTypingEffect
           text={['Ui Developer','Gamer', 'Photography', 'Futbol']}
           eraseSpeed={30}
