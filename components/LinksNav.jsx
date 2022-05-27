@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const LinksNav = () => {
   return (
-    <div className='fixed  left-[-10%] bottom-[50%]  hover:left-0 shadow-2xl'>
+    <div className='fixed  left-[-10%] bottom-[50%] hover:left-0   shadow-2xl z-10'>
         <div className='bg-naranja  p-2 space-y-2 relative rounded-r-xl '>
           <div className='flex flex-col items-center group rounded-r-xl space-y-2'>
             <a target="_blank" rel="noreferrer" href="https://www.github.com/TDev236" className=''>
