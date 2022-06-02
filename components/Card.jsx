@@ -8,7 +8,7 @@ const Card = ({img, name, tecnology,url}) => {
         <div className="rounded-xl shadow-md shadow-naranja  p-2 hover:shadow-naranja-oscuro  ">
           <Image src={img} className=" rounded-xl"  width="400" height="300"  alt={name}/>
           <div className="flex flex-col items-end my-2 py-2 mx-4">
-            <h1 className="text-xl  text-right px-4 text-texto font bold border-b w-[180px]  ">{name}</h1>
+            <h1 className="text-xl  text-right px-4 text-bg-background dark:text-bg-background-second font bold border-b w-[180px]">{name}</h1>
             <p className="py-2 text-sm sm:text-xs md:text-lg text-naranja-oscuro">{tecnology}</p>
             <a target='_blank' rel="noreferrer" className="bg-naranja p-2 mt-2 rounded-lg text-texto transition ease-in-out delay-150 hover:translate-x-1" href={url}>Live Demo</a>
           </div>

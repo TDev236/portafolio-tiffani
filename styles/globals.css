@@ -9,6 +9,6 @@ body {
 
 @layer base {
     body {
-        @apply bg-background-second;
+        @apply bg-bg-default;
     }
 }

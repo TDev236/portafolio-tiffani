@@ -3,7 +3,7 @@ import Me from '../utils/imgs/me-dev.png'
 import Image from 'next/image'
 const About = () => {
   return (
-    <div id='about' className='bg-blanco py-4 '>
+    <div id='about' className='bg-background-second dark:bg-blanco py-4 '>
         <div className='max-w-[80%] min-h-screen flex flex-col mx-auto sm:flex-row justify-between items-center'>
             <Image
                 src={Me}

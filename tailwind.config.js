@@ -3,6 +3,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
     colors: {
@@ -14,6 +15,7 @@ module.exports = {
       'background-second': '#1c1c1c',
       'danger': '#a52019',
       'blanco' : '#ffffff',
+      'bg-default': '#E9E9E9',
     },
   },
   plugins: [],

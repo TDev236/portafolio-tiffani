@@ -3,7 +3,7 @@ import Image from 'next/image'
 import {BsFillSuitHeartFill} from 'react-icons/bs'
 const Footer = () => {
   return (
-    <div className=" fixed w-full h-[50px] bg-background-second">
+    <div className=" absolute w-full h-[70px] bg-background-second">
         <div className="flex flex-col justify-center items-center ">
             <div className="flex space-x-4 items-center justify-center pt-4">
                 <h1 className="flex items-center text-texto font-bold ">{`Develop with `}</h1>
