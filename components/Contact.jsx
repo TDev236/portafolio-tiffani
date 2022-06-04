@@ -31,7 +31,7 @@ const Contact = () => {
   }
 
   return (
-    <div id='contact' className='w-full max-h-screen bg-texto mx-auto flex flex-col'>
+    <div id='contact' className='w-full max-h-screen bg-texto dark:bg-background-second mx-auto flex flex-col'>
         <h1 className='mx-auto mt-8 border-b-naranja border-b border-dashed text-naranja font-bold text-3xl'>Contact Me</h1>
         <div className="flex items-center justify-evenly">
         <form ref={form} onSubmit={sendEmail} className='flex flex-col justify-center mx-auto px-4 w-[400px] h-[600px] ' onChange={(e) => setEmpty(e.target.value)}>

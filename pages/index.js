@@ -29,8 +29,8 @@ export default function Home() {
       </Head>
       <button 
         onClick={changeTheme}
-        className='dark:bg-naranja-oscuro bg-naranja-oscuro rounded-xl p-2 mx-6 right-2 bottom-10 fixed z-10 text-texto font-bold dark:text-texto'>
-        {theme === 'light' ? <GoLightBulb/> : <MdNightlight className='text-texto'/>}
+        className='dark:bg-naranja-oscuro bg-naranja-oscuro hover:transition-transform duration-100 ease-linear hover:scale-105 shadow-lg rounded-xl p-2 mx-6 right-2 bottom-10 fixed z-10 text-texto font-bold dark:text-texto hover:shadow-xl'>
+        {theme === 'light' ? <MdNightlight/> : <GoLightBulb className='text-texto'/>}
       </button>
       <LinksNav/>
       <LinksDesktop/>

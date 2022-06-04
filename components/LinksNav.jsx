@@ -9,13 +9,13 @@ const LinksNav = () => {
         <div className='bg-naranja  p-2 space-y-2 relative rounded-r-xl '>
           <div className='flex flex-col items-center group rounded-r-xl space-y-2'>
             <a target="_blank" rel="noreferrer" href="https://www.github.com/TDev236" className=''>
-                <AiFillGithub className='cursor-pointer p-2 hover:bg-texto rounded-xl hover:text-naranja' size={40}/>
+                <AiFillGithub className='cursor-pointer p-2 hover:bg-background-second rounded-xl hover:text-texto' size={40}/>
             </a>
             <a target="_blank" rel="noreferrer" href="https://wa.me/573175912109">
-              <AiOutlineWhatsApp className='cursor-pointer p-2 hover:bg-texto hover:text-naranja rounded-xl' size={40}/>
+              <AiOutlineWhatsApp className='cursor-pointer p-2 hover:bg-background-second hover:text-texto rounded-xl' size={40}/>
             </a>
             <a  href="#contact">
-              <BiMailSend className='cursor-pointer p-2 hover:bg-texto hover:text-naranja rounded-xl' size={40}/>
+              <BiMailSend className='cursor-pointer p-2 hover:bg-background-second hover:text-texto rounded-xl' size={40}/>
             </a>
           </div>
         </div>
